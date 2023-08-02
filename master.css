@@ -1,0 +1,59 @@
+
+body {
+    background-image: url(./image/ea-sports-fc-reveals-cover-stars-e1688998809453.webp);
+    background-size: cover;
+}
+
+.main {
+    width: 700px;
+    height: 450px;
+    background-color: #2b2b2b;
+    margin: 100px auto;
+    border-radius: 0%;
+    border: 1px solid #031621;
+    transition: all 2s ease;
+}
+
+.rec {
+    color: white;
+    text-align: center;
+    line-height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    transition: all 2s ease;
+}
+
+.main:hover {
+    border-radius: 50%;
+    border: 2px solid #07f468;
+    overflow: hidden;
+    /* background-color:black; */
+    background-image: url(./image/fc\ logo.jpg);
+    background-position: 10px;
+}
+
+.rec:hover {
+    color: #07f468;
+    font-size: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .main {
+        width: 300px;
+        height: 150px;
+        margin: 200px auto;
+    }
+
+    .rec {
+        font-size: 10px;
+        line-height: 150px;
+        text-align: center;
+    }
+
+    body {
+        background-image: url(./image/fc24\ mobile.webp);
+        background-size: cover;
+    }
+}
